@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Colleague Password Generator",
+    "deployedLink": " https://nickncb96.github.io/colleague-password-gen/Links to an external site.",
+    "repositoryLink": "https://github.com/Nickncb96/colleague-password-gen.git",
+    "screenshot": "project1.jpg"
+  },
+
+  {
+    "id": 2,
+    "title": "Times Football Trivia Quiz",
+    "deployedLink": "https://nickncb96.github.io/timed-football-trivia-quiz-/Links to an external site.",
+    "repositoryLink": "https://github.com/Nickncb96/timed-football-trivia-quiz-.git ",
+    "screenshot": "project2.jpg"
+  },
+  
+  {
+    "id": 3,
+    "title": "Work Day Hourly Planner",
+    "deployedLink": "https://nickncb96.github.io/Work-day-hourly-planner/Links to an external site.",
+    "repositoryLink": "https://github.com/Nickncb96/Work-day-hourly-planner.git",
+    "screenshot": "project3.jpg"
+  },
+
+  {
+    "id": 4,
+    "title": "Group Project 1",
+    "deployedLink": "https://natves.github.io/Gastronomic-Globe/Links to an external site..",
+    "repositoryLink":  "https://github.com/NatVes/Gastronomic-Globe.git ",
+    "screenshot": "project4.jpg"
+  },
+
+  {
+    "id": 5,
+    "title": "Colleague-Profile-Generator",
+    "deployedLink": "https://github.com/Nickncb96/Colleague-Profile-Generator.git  follow the usage instructions",
+    "repositoryLink": "https://github.com/Nickncb96/Colleague-Profile-Generator.git",
+    "screenshot": "project5.jpg"
+  }
+]
