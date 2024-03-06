@@ -1,4 +1,3 @@
-// pages/Projects.js
 import React from 'react';
 import projectsData from '../data/projects.json';
 
