@@ -11,15 +11,15 @@ const Contact = () => {
           <li>Phone: +1234567890</li>
           <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
           <li><a href="https://github.com/Nickncb96" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-          {/* Replace with actual links */}
         </ul>
         <ContactForm />
       </div>
     </section>
   );
-}
+};
 
 export default Contact;
+
 
 
 
