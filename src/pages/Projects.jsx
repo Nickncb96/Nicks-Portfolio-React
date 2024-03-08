@@ -1,29 +1,29 @@
-import React from 'react';
-import projectsData from '../data/projects.json';
+import React, { useState, useEffect } from 'react';
+import ProjectCard from '../components/ProjectCard';
+import '../styles/Projects.css';
 
 const Projects = () => {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    fetch('/data/projects.json')
+      .then((response) => response.json())
+      .then((data) => setProjects(data))
+      .catch((error) => console.error('Error fetching projects:', error));
+  }, []);
+
   return (
-    <section id="projects" className="py-5 bg-light">
+    <section id="projects" className="py-5">
       <div className="container">
-        <h2 className="text-center mb-4">Projects</h2>
+        {/* Projects heading */}
+        <h2 className="text-center">Projects</h2>
         <div className="row">
-          {projectsData.map(project => (
-            <div key={project.id} className="col-md-4 mb-4">
-              <div className="card">
-                <img src={project.screenshot} className="card-img-top" alt={project.title} />
-                <div className="card-body">
-                  <h5 className="card-title">{project.title}</h5>
-                  <p className="card-text">{project.description}</p>
-                  <a href={project.deployedLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
-                  <a href={project.repositoryLink} className="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-                </div>
-              </div>
-            </div>
+          {/* Map through projects and render ProjectCard for each */}
+          {projects.map((project) => (
+            <ProjectCard key={project.id} project={project} />
           ))}
         </div>
       </div>
     </section>
   );
-}
-
-export default Projects;
+};
