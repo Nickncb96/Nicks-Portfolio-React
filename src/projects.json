@@ -45,7 +45,7 @@
     "repositoryLink": "https://github.com/NatVes/Gastronomic-Globe.git",
     "screenshot": "group-project.png",
     "description": "A gastronomic exploration app.",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "technologies": ["HTML", "CSS", "JavaScript", "API"],
     "highlights": [
       "Interactive map with restaurant recommendations",
       "User reviews and ratings"
