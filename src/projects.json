@@ -2,40 +2,66 @@
   {
     "id": 1,
     "title": "Colleague Password Generator",
-    "deployedLink": " https://nickncb96.github.io/colleague-password-gen/Links to an external site.",
+    "deployedLink": "https://nickncb96.github.io/colleague-password-gen/",
     "repositoryLink": "https://github.com/Nickncb96/colleague-password-gen.git",
-    "screenshot": "project1.jpg"
+    "screenshot": "password-ge-project.jpg",
+    "description": "A password generator app for colleagues.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "highlights": [
+      "Generated passwords with various complexity options",
+      "User-friendly interface"
+    ]
   },
-
   {
     "id": 2,
     "title": "Times Football Trivia Quiz",
-    "deployedLink": "https://nickncb96.github.io/timed-football-trivia-quiz-/Links to an external site.",
-    "repositoryLink": "https://github.com/Nickncb96/timed-football-trivia-quiz-.git ",
-    "screenshot": "project2.jpg"
+    "deployedLink": "https://nickncb96.github.io/timed-football-trivia-quiz-/",
+    "repositoryLink": "https://github.com/Nickncb96/timed-football-trivia-quiz-.git",
+    "screenshot": "football-quiz.jpg",
+    "description": "A timed football trivia quiz game.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "highlights": [
+      "Multiple-choice questions with a countdown timer",
+      "Score tracking"
+    ]
   },
-  
   {
     "id": 3,
     "title": "Work Day Hourly Planner",
-    "deployedLink": "https://nickncb96.github.io/Work-day-hourly-planner/Links to an external site.",
+    "deployedLink": "https://nickncb96.github.io/Work-day-hourly-planner/",
     "repositoryLink": "https://github.com/Nickncb96/Work-day-hourly-planner.git",
-    "screenshot": "project3.jpg"
+    "screenshot": "Work-Day-Schedule.jpg",
+    "description": "A planner to schedule tasks throughout the workday.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "highlights": [
+      "Hourly scheduling",
+      "Persistent data storage using local storage"
+    ]
   },
-
   {
     "id": 4,
     "title": "Group Project 1",
-    "deployedLink": "https://natves.github.io/Gastronomic-Globe/Links to an external site..",
-    "repositoryLink":  "https://github.com/NatVes/Gastronomic-Globe.git ",
-    "screenshot": "project4.jpg"
+    "deployedLink": "https://natves.github.io/Gastronomic-Globe/",
+    "repositoryLink": "https://github.com/NatVes/Gastronomic-Globe.git",
+    "screenshot": "group-project.png",
+    "description": "A gastronomic exploration app.",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "highlights": [
+      "Interactive map with restaurant recommendations",
+      "User reviews and ratings"
+    ]
   },
-
   {
     "id": 5,
     "title": "Colleague-Profile-Generator",
-    "deployedLink": "https://github.com/Nickncb96/Colleague-Profile-Generator.git  follow the usage instructions",
+    "deployedLink": "https://nickncb96.github.io/Colleague-Profile-Generator/",
     "repositoryLink": "https://github.com/Nickncb96/Colleague-Profile-Generator.git",
-    "screenshot": "project5.jpg"
+    "screenshot": "team-builder-project.JPG",
+    "description": "A profile generator for colleagues.",
+    "technologies": ["Node.js", "Inquirer.js"],
+    "highlights": [
+      "Generates profiles based on user input",
+      "Customisable profile templates"
+    ]
   }
 ]
